@@ -1,4 +1,36 @@
-BODY{
-    COLOR: WHITE;
-    BACKGROUND: BLACK;
+Body{
+    Color: White;
+    background-color: Black;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+border-bottom: solid 2px red;
+padding: 20px;
+font-size: 32px;
+color: red;
+}
+
+section{
+background: red;
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px
+}
+
+p {
+    font-size: 20px;
+}
+img{
+    height: 200px;
 }
